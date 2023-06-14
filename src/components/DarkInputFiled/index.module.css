@@ -1,0 +1,9 @@
+.BillDate{
+    font-weight: 700 !important;
+    font-size: 14px !important;
+    padding: 03px 4px !important;
+    max-width: 130px !important;
+    margin: 10px 0px;
+    opacity: 0.6;
+    outline-color: rgb(159, 159, 159);
+}

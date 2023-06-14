@@ -1,0 +1,37 @@
+.h3{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Avenir;
+    display: flex;
+    word-wrap: break-word;
+}
+.pera{
+    margin-bottom: 0.75rem;
+    color: #585f6b;
+    /* height: 100%; */
+    font-size: 1.2rem;
+    line-height: 1.6;
+    font-weight: 400;
+    font-family: Avenir;
+    display: flex;
+    word-wrap: break-word;
+
+}
+.margint{
+    margin-top: 10%;
+    display: flex;justify-content: center;
+
+    
+}
+.section{
+    margin-top: 7.5%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.section1{
+    width: 50%;
+    display: flex;
+   text-align: start;
+    flex-direction: column;
+}

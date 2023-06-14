@@ -1,0 +1,229 @@
+.invoivceInp{
+    color: #ee82ee;
+   
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
+.invoivceInp1{
+    color:  #a13ec9;
+    width: 200px;
+    display: flex;
+    text-align: center;
+    outline: none;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 40px;
+    
+}
+/* bveqrlbwklkj, */
+
+
+.invoiceHeaderInput{
+    width: 110px;
+    font-size: 13px;
+    background: rgba(0,0,0,.05);
+    border:inherit
+}
+.invoiceHeaderInput1{
+    width: 110px;
+    font-size: 13px;
+    font-weight: bold;
+    
+}
+/* imageuploader */
+
+.inputText {
+    border: none !important;
+    /* color:  #da1eeb !important; */
+    border-radius: 5px !important;
+    font-weight: 700 !important;
+    width: calc(100% - 24px);
+    min-width: 30px;
+    padding: 0px 3px !important;
+    border-radius: 3px;
+    font-size: 30px;
+    background-color: #65086d  !important;
+    max-width: 152px; 
+    z-index: 2;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.btnAlpha {
+    color:#9721c5 !important;
+    font-weight: 500;
+    --fa-style-family-classic: "Font Awesome 6 Free";
+    --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free";
+}
+
+.fileWrapper {
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    padding: 22px;
+    width: 200px;
+    border: 4px  dashed  #a13ec9;
+    background: rgba(186, 106, 211, 0.03);
+    text-align: center;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+.fileWrapper .uploader {
+    cursor: pointer;
+    font-size: 100px;
+    height: 100%;
+    filter: alpha(opacity=1);
+    -moz-opacity: 0.01;
+    opacity: 0.01;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 9;
+}
+.uploaded{
+    max-width: 200px !important;
+    max-height: 120px !important;
+    border: 1px solid #d7c9c9 !important;
+    border-radius: 8px !important;
+    border-radius: 10px !important;
+}
+.cutButton{
+    /* position: relative !important;
+    top: -44px !important;
+    left: 66px !important; */
+    color: white;
+    background-color: #0b2033;
+}
+
+.date2{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 3px;
+    margin-top: 3px;
+}
+.adminCard{
+    width: 100%;
+}
+.shipdata{
+    background-color:#e3d1fa;
+}
+.LightInputField{
+    background-color:inherit;
+    text-transform:capitalize;
+    width: 100% !important;
+    font-size: 15px;
+    margin-right: 10px;
+    color: rgb(48, 46, 49) !important;
+    outline-color: rgb(255, 255, 255);
+    width: calc(100% - 24px);
+
+}
+/* .LightInputField:hover{
+  background-color: azure;
+  border:1px solid  #d7c9c9;
+} */
+
+
+/* additemCss */
+.baseLine{
+    background-color: #814ac9;
+    border-radius: 17px;
+    color: white;
+    height: 50px !important;
+}
+.borderBottomWidth{
+    background-color: #e6e3e9;
+    border: none;
+}
+.invoiceHeaderInputtable{
+    outline: none;
+    width: 110px;
+    background-color: #e6e3e9;
+}
+.invoiceHeaderInput{
+    text-transform: capitalize;
+    background-color: #e6e3e9;
+    border: none;
+}
+.additembtn{
+    display: flex;
+}
+.className1{
+    margin-top: 5px !important;
+    color:  #814ac9 !important;
+    border: 1px solid  #814ac9  !important;
+    height: 50px;
+    border-radius: 9PX !important;
+
+ 
+}
+.LightInputField1{
+    display: flex;
+    color: #814ac9 ;
+}
+.LightInputField1::placeholder{
+    color: #814ac9 ;
+}
+.gap{
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    column-gap: 15px;
+  
+}
+.additembtn{
+    display: flex;
+}
+.themeBtn {
+    border: 2px solid #0b2033 !important;
+    color: #444 !important;
+    min-width: 120px !important;
+    border-radius: 5px !important;
+    min-height: 45px;
+}
+
+.themeBtnOne {
+    min-width: 120px !important;
+    border-radius: 5px;
+    min-height: 45px;
+    line-height: 1.4;
+    background-color: #0b2033 !important;
+    white-space: nowrap;
+    padding: 10px 17px;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    color: #fff !important;
+}
+.warningIconDiv {
+    justify-content: center;
+    display: flex;
+    width: 100% !important;
+}
+
+.popupText {
+    font-size: 30px;
+    font-weight: 700;
+    opacity: 0.8;
+    line-height: 1.4;
+    color: #0b2033 !important;
+}
+.cutbtnamount{
+    display: flex;
+    justify-content: space-between;
+}
+.croosBtn{
+    margin-right: 10px;
+    background-color: #814ac9;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+
+    border: 1px solid #814ac9;
+}
+

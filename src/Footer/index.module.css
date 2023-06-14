@@ -1,0 +1,41 @@
+.Footer{
+    /* background-color: inherit; */
+    background-color: #0b2033;
+    color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(13, 65, 114);
+}
+.h6{
+    /* color: rgb(41, 44, 56); */
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+ text-transform: capitalize;
+    font-weight:bold;
+    margin-bottom: 6px;
+}
+.SocialIconsul{
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+    font-size: 40px;
+
+}
+.gmailIcon{
+    background-color:#0b2033;
+    width: 40px;
+    height: 40px;
+   color: white;
+
+   border-radius: 100%;
+}
+.PhoneIcon{
+    background-color:#0b2033;
+     width: 40px;
+     height: 40px;
+    color: white;
+ 
+    border-radius: 100%;
+}
+.PhoneNumber{
+    margin: 15px,0px 0px 10px;
+}

@@ -1,0 +1,160 @@
+.UploadedandInputsection{
+    display: flex;
+    justify-content: space-between;
+}
+/* uploadedlogocss */
+
+.inputText {
+    border: none !important;
+    color: #0b2033 !important;
+    border-radius: 5px !important;
+    font-weight: 700 !important;
+    width: calc(100% - 24px);
+    min-width: 30px;
+    padding: 0px 3px !important;
+    border-radius: 3px;
+    font-size: 30px;
+    background-color: transparent;
+    max-width: 152px;
+    opacity: 1;
+}
+
+.btnAlpha {
+    color: rgba(0, 0, 0, 0.2) !important;
+    font-weight: 400;
+}
+
+.fileWrapper {
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    padding: 22px;
+    width: 200px;
+    border: 3px dashed rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.03);
+    text-align: center;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+.fileWrapper .uploader {
+    cursor: pointer;
+    font-size: 100px;
+    height: 100%;
+    filter: alpha(opacity=1);
+    -moz-opacity: 0.01;
+    opacity: 0.01;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 9;
+}
+/* .Uploaded-Logo{
+    width: 100%;
+    height: 100px;
+
+   
+} */
+.uploaded{
+    max-width: 200px !important;
+    max-height: 120px !important;
+    border: 1px solid #d7c9c9 !important;
+    border-radius: 8px !important;
+    border-radius: 10px !important;
+}
+.cutButton{
+    /* position: relative !important;
+    top: -44px !important;
+    left: 66px !important; */
+    color: white;
+    background-color: #0b2033;
+}
+
+/* invoiceinputtag */
+.date1{
+    display: flex !important;
+}
+
+.invoivceInp1{
+    font-size: 40px;
+    width: 200px;
+    display: flex;
+    text-align: center;
+    color: #e9be90 !important;
+    outline-color:grey;
+}
+/* :end */
+.HeaderInvoice input{
+    width: 152px  !important;
+    color: gray;
+    outline-color: grey;
+
+}
+
+.shipdata{
+    display: flex;
+    text-align: start;
+    justify-content: space-between !important;
+    font-size: 15px;
+}
+.shipdata input{
+    margin-top: 4px;
+    outline-color: gray;
+    outline-width: 1px;
+    width: 200px;
+
+}
+.LightInputFieldbillship{
+    color: #e2b691 !important;
+    
+}
+.shipdata input:hover{
+    background-color: white !important;
+}
+/* // */
+
+.tablediscriptionrow{
+    background-color: #e2b691;
+    height: 55px;
+    color:#fff;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 400;
+    gap: 2px;
+    text-align: center;
+    border-right: 1px solid white;
+    width: 25%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* //// */
+.additembtn{
+    display: flex;
+    color: #e2b691;
+    border: 1px solid #e2b691;
+    width: 140px;
+    height: 44px;
+    border-radius: 7px;
+}
+
+
+
+
+
+

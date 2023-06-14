@@ -1,0 +1,57 @@
+.InvoiceHeaderOne {
+    display: flex;
+    align-items: center;
+}
+
+.InvoiceHeadertwo {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.InvoiceHeaderthree {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.HeaderInvoice {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0b2033 !important;
+    color: #fff;
+    margin: 10px -20px;
+    padding: 8px 20px;
+    /* background: rgba(var(--color,255,0,0),1); */
+}
+
+.invoiceHeaderInput {
+    color: #fff;
+    vertical-align: top;
+    width: 110px;
+    font-size: 8px;
+    margin-right: 10px;
+  text-align: center;
+    min-width: 30px;
+    height: 24px;
+    padding:auto;
+    border-radius: 3px;
+    border: 1px solid transparent;
+    font-size: 13px;
+    background-color: transparent;
+    max-width: 120px !important;
+}
+.materialUiinput{
+  
+    color: white !important;
+    font-size: 13px !important;
+    width: 110px !important;
+   
+    text-align: center !important;
+    color: #fff
+}
+.materialUiinput:hover{
+    border: 1px solid white ;
+    border-radius:8px ;
+}
+

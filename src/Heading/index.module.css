@@ -1,0 +1,20 @@
+.Heading{
+ display: flex;
+ flex-direction: column;
+ text-align: center;
+ justify-content: center;
+ background-color: #0b2033;
+ color: white;
+ height: 200px;
+}
+.Heading h1 {
+    font-size: 45px;
+    font-weight: bold;
+}
+.Heading p{
+    font-family: Matter;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.6;
+    
+}

@@ -1,0 +1,53 @@
+.slides-container {
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+.slides-container::-webkit-scrollbar {
+	display: none; 
+}
+
+body .aspect-square {
+    aspect-ratio: 4 / 2;
+}
+
+.crousalCard{
+	box-shadow: 0 3px 90px rgba(0, 0, 0, 0.11);
+    border-radius: 8px;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.1);
+    /* padding: 20px; */
+}
+.Selectbtn{
+    background-color: #0b2033;
+    color: white;
+    width: 100px;
+    font-weight: bold;
+    height: 48px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 180px;
+
+}
+.title{
+    display: flex;
+    text-align: start;
+    justify-content: flex-start;
+    margin-left: 60px;
+    font-size: 20px;
+    color: #333;
+    font-family: Matter;
+    font-weight: 600;
+}
+.crousalSlider{
+    margin-top: 40px;
+}
+.h4{
+    z-index: 43535;
+    position: relative;
+    color: gray;
+}
+
+
+
+
+

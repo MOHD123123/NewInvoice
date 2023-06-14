@@ -1,0 +1,175 @@
+
+.inputText {
+    border: none !important;
+    color: #0b2033 !important;
+    border-radius: 5px !important;
+    font-weight: 700 !important;
+    width: calc(100% - 24px);
+    min-width: 30px;
+    padding: 0px 3px !important;
+    border-radius: 3px;
+    font-size: 30px;
+    background-color: transparent;
+    max-width: 152px;
+}
+
+.btnAlpha {
+    color: rgba(0, 0, 0, 0.2) !important;
+    font-weight: 400;
+}
+
+.fileWrapper {
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    padding: 22px;
+    width: 200px;
+    border: 3px dashed rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.03);
+    text-align: center;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+.fileWrapper .uploader {
+    cursor: pointer;
+    font-size: 100px;
+    height: 100%;
+    filter: alpha(opacity=1);
+    -moz-opacity: 0.01;
+    opacity: 0.01;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 9;
+}
+/* .Uploaded-Logo{
+    width: 100%;
+    height: 100px;
+
+   
+} */
+.uploaded{
+    max-width: 200px !important;
+    max-height: 120px !important;
+    border: 1px solid #d7c9c9 !important;
+    border-radius: 8px !important;
+    border-radius: 10px !important;
+}
+.cutButton{
+    /* position: relative !important;
+    top: -44px !important;
+    left: 66px !important; */
+    color: white;
+    background-color: #0b2033;
+}
+
+/* //
+ */
+ .UploadedandInputsection{
+    display: flex;
+    justify-content:space-between;
+ }
+ .yellow{
+    background-color: rgb(243, 140, 22);
+    height: 4px;
+ }
+
+
+ /* textinput */
+ .invoivceInp1{
+    width:250px;
+    display: flex;
+    text-align: center;
+    color: rgb(165, 161, 161);
+    height:50px;
+    box-sizing: border-box;
+    font-size: 35px;
+    font-weight: 900;
+    outline-color: gray;
+
+ }
+ .invoiceHeaderInput{
+    width: 110px !important;
+ }
+ .invoiceHeaderInput21{
+    display: flex !important;
+    text-align: center !important;
+    justify-content: center;
+    color: rgb(189, 101, 0);
+    border: 1px solid rgb(189, 182, 182);
+    width: 100px;
+    border-radius: 6px;
+    height: 30px;
+    outline-style:none;
+    
+ }
+ .date1{
+    display:flex;
+    flex-direction: column;
+    margin-top: 4px;
+ }
+ .date1 input{
+    margin: 5px 5px ;
+
+ }
+ .invoiceHeaderInput22{
+    display: flex !important;
+    text-align: center !important;
+    justify-content: center;
+    color: rgb(189, 101, 0);
+    border: 1px solid rgb(189, 182, 182);
+    width: 100px;
+    border-radius: 6px;
+    height: 30px;
+    outline-style:none;
+   
+ }
+ .flex{
+    display: flex;
+ }
+ .baseLine{
+    border: 3px solid rgb(243, 140, 22);
+
+ }
+ .tabledis{
+   
+    height: 50px;
+ }
+ .tablediscriptionrow:hover{
+    border: 1px solid gray;
+    box-sizing: border-box;
+   
+ }
+ .tablediscriptionrow{
+    width: 160px !important;
+ }
+ .invoiceHeaderInput{
+
+ }
+ .borderBottomWidth{
+    background-color: rgb(240, 237, 233);
+ }
+ .additembtn{
+    display: flex ;
+ }
+ .className1{
+    color:  rgb(243, 140, 22) !important;
+    border: 1px solid rgb(243, 140, 22) !important ;
+ }
+ .LightInputField{
+    margin-top: 2px;
+    width: 150px;
+ }
+ .LightInputFieldbillship{
+    margin-top: 2px;
+    width: 150px;
+    color: rgb(243, 140, 22);
+ }
+ .LightInputFieldbillship::placeholder{
+
+    color: rgb(243, 140, 22);
+    
+    }

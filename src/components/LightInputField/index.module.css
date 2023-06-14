@@ -1,0 +1,15 @@
+
+.invoiceHeaderInput {
+    background-color: #fff;
+    font-size: 13px;
+    margin-right: 10px;
+    color: rgb(159, 159, 159) !important;
+    outline-color: rgb(159, 159, 159);
+    width: calc(100% - 24px);
+    min-width: 30px;
+    height: 24px;
+    padding: 0 3px;
+    border-radius: 3px;
+    border: 1px solid transparent;
+    max-width: 152px;
+}
